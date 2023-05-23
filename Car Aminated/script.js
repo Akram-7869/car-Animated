@@ -1,8 +1,8 @@
-// var audio = document.createElement('audio');
-// audio.setAttribute('src', 'sound.mp3'); 
-// audio.loop=true;
-// audio.autoplay();
+var audio = document.createElement('audio');
+audio.setAttribute('src', 'sound.mp3'); 
+audio.loop=true;
+audio.autoplay();
 
-window.onload=function(){
-    document.getElementById("ap").onplay();
-}
+// window.onload=function(){
+//     document.getElementById("ap").onplay();
+// }
